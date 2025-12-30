@@ -1,32 +1,24 @@
 # Omnibar
 
-A fast, minimal Spotlight-like command palette for switching tabs, searching history, and web navigation.
+A fast, minimal Spotlight-like command palette for switching tabs, searching history, and web navigation. Built primarily for Orion Browser.
 
 ![Omnibar](omnibar.png)
 
 ## Features
 
 - **Instant fuzzy search** across open tabs and browsing history
-- **Prefix-cached search** for lightning-fast results as you type
+- **Prefix-cached search** for fast results as you type.
 - **Three scopes** — Tabs, History, Web search
 - **Keyboard-first** navigation
-- **Zero startup cost** — lazy loads only when activated
+- **Zero startup cost** — uFuzzy lazy loads only when activated
 
 ## Installation
 
 ### Orion Browser
 
-1. Open Orion Settings → Advanced
-2. Enable "Allow unsigned extensions" under Chrome Extensions
-3. Navigate to `chrome://extensions`
-4. Enable "Developer mode"
-5. Click "Load unpacked" and select this folder
-
-### Chrome / Edge / Brave
-
-1. Navigate to `chrome://extensions` (or equivalent)
-2. Enable "Developer mode"
-3. Click "Load unpacked" and select this folder
+1. Open Orion's extensions at Orion -> Tools -> Manage Extensions
+2. Load extension from disk
+3. Select 'Omnibus' folder
 
 ## Usage
 
@@ -41,19 +33,12 @@ A fast, minimal Spotlight-like command palette for switching tabs, searching his
 
 ## Scopes
 
-| Scope | Icon | Description |
+| Scope | Description |
 |-------|------|-------------|
-| **Tabs** | 🪟 | Search and switch between open tabs |
-| **History** | 🕐 | Search your browsing history |
-| **Web** | 🌐 | Enter a URL or search Google |
+| **Tabs** | Search and switch between open tabs |
+| **History** | Search your browsing history |
+| **Web** | Enter a URL or search Google |
 
-## Performance
-
-- **50ms debounced input** — responsive without wasted cycles
-- **Prefix cache** — incremental searches reuse previous results
-- **Lazy uFuzzy loading** — search library loads only on first use
-- **CSS containment** — optimized rendering performance
-- **DocumentFragment batching** — minimal DOM operations
 
 ## Tech
 
